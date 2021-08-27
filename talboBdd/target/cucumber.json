@@ -1,0 +1,315 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Talbot Search Scenario",
+        "description": "",
+        "id": "talbot-search-test-feature;talbot-search-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4743365000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is already on Home Page",
+            "match": {
+              "location": "TestSteps.user_is_already_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40470200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of Home Page is Talbot",
+            "match": {
+              "location": "TestSteps.title_of_Home_Page_is_Talbot()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274434300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on searchbox and enters \"pajama\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pajama",
+                  "offset": 37
+                }
+              ],
+              "location": "TestSteps.user_clicks_on_searchbox_and_enters(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2230984300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on submit",
+            "match": {
+              "location": "TestSteps.user_clicks_on_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7391879500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on choice",
+            "match": {
+              "location": "TestSteps.user_clicks_on_choice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19905100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user sees item details",
+            "match": {
+              "location": "TestSteps.user_sees_item_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TC1"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Talbot Location Scenario",
+        "description": "",
+        "id": "talbot-search-test-feature;talbot-location-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1259297800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is on Talbot",
+            "match": {
+              "location": "TestSteps.user_is_on_Talbot()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 313051900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on Store Locator",
+            "match": {
+              "location": "TestSteps.user_clicks_on_Store_Locator()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2835664100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user selects distance",
+            "match": {
+              "location": "TestSteps.user_selects_distance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 434891200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters \"60188\" and clicks find stores",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60188",
+                  "offset": 13
+                }
+              ],
+              "location": "TestSteps.user_enters_and_clicks_find_stores(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2281786100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on first choice",
+            "match": {
+              "location": "TestSteps.user_clicks_on_first_choice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10988100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user can see location detail",
+            "match": {
+              "location": "TestSteps.user_can_see_location_detail()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@TC2"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Talbot GiftCard Scenario",
+        "description": "",
+        "id": "talbot-search-test-feature;talbot-giftcard-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1138201700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user is on Talbot page",
+            "match": {
+              "location": "TestSteps.user_is_on_Talbot_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2515885200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user scrolls down and clicks giftcard link",
+            "match": {
+              "location": "TestSteps.user_scrolls_down_and_clicks_giftcard_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 225836400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user clicks hundred dollar amount",
+            "match": {
+              "location": "TestSteps.user_clicks_hundred_dollar_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 933044400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicks personalize and types in \"To jane with love\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "To jane with love",
+                  "offset": 38
+                }
+              ],
+              "location": "TestSteps.user_clicks_personalize_and_types_in(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20183239600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks add to bag",
+            "match": {
+              "location": "TestSteps.user_clicks_add_to_bag()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1016494600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user can see shopping bag",
+            "match": {
+              "location": "TestSteps.user_can_see_shopping_bag()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 808795500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user closes browser",
+            "match": {
+              "location": "TestSteps.user_closes_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@TC3"
+          }
+        ]
+      }
+    ],
+    "name": "Talbot Search Test Feature",
+    "description": "",
+    "id": "talbot-search-test-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/kohli/OneDrive/Documents/NetBeansProjects/jan27/talboBdd/src/main/java/features/talbot.feature.feature"
+  }
+]

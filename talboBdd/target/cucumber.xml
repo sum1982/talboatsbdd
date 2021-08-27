@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="48.658214">
+<testcase classname="Talbot Search Test Feature" name="Talbot Search Scenario" time="14.701038">
+<system-out><![CDATA[Given user is already on Home Page..........................................passed
+When title of Home Page is Talbot...........................................passed
+Then user clicks on searchbox and enters "pajama"...........................passed
+Then user clicks on submit..................................................passed
+Then user clicks on choice..................................................passed
+Then user sees item details.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Talbot Search Test Feature" name="Talbot Location Scenario" time="7.135679">
+<system-out><![CDATA[Given user is on Talbot.....................................................passed
+When user clicks on Store Locator...........................................passed
+Then user selects distance..................................................passed
+Then user enters "60188" and clicks find stores.............................passed
+Then user clicks on first choice............................................passed
+Then user can see location detail...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Talbot Search Test Feature" name="Talbot GiftCard Scenario" time="26.821497">
+<system-out><![CDATA[Given user is on Talbot page................................................passed
+When user scrolls down and clicks giftcard link.............................passed
+Then user clicks hundred dollar amount......................................passed
+Then user clicks personalize and types in "To jane with love"...............passed
+Then user clicks add to bag.................................................passed
+Then user can see shopping bag..............................................passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
