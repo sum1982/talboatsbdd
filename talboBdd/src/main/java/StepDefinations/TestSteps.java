@@ -132,7 +132,7 @@ public void user_clicks_hundred_dollar_amount() throws Throwable {
 	((JavascriptExecutor)driver).executeScript("scroll(0,400)");
 	
   driver.findElement(By.xpath("//button[contains(text(),'$100.00')]")).click();
-	Thread.sleep(2000);
+	Thread.sleep(5000);
    
 }
 
@@ -148,7 +148,7 @@ public void user_clicks_personalize_and_types_in(String message) throws Throwabl
 public void user_clicks_add_to_bag() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
    ((JavascriptExecutor)driver).executeScript("scroll(0,500)");
-    Thread.sleep(20000);
+    Thread.sleep(2000);
      WebDriverWait wait=new WebDriverWait(driver, 20);  //20 sec
     wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("AddToBasketButton"))).click();
 }
