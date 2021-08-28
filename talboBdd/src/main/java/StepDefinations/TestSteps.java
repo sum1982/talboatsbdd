@@ -130,8 +130,9 @@ public void user_scrolls_down_and_clicks_giftcard_link() throws Throwable {
 @Then("^user clicks hundred dollar amount$")
 public void user_clicks_hundred_dollar_amount() throws Throwable {
 	((JavascriptExecutor)driver).executeScript("scroll(0,400)");
-	Thread.sleep(2000);
+	
   driver.findElement(By.xpath("//button[contains(text(),'$100.00')]")).click();
+	Thread.sleep(2000);
    
 }
 
