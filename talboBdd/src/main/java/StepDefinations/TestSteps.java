@@ -123,8 +123,8 @@ public void user_is_on_Talbot_page() throws Throwable {
 
 @When("^user scrolls down and clicks giftcard link$")
 public void user_scrolls_down_and_clicks_giftcard_link() throws Throwable {
-	Thread.sleep(5000);
-     driver.findElement(By.xpath("//a[contains(text(),'Gift Cards')]")).click();
+	WebDriverWait wait=new WebDriverWait(driver, 20);  //20 sec
+    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Gift Cards')]"))).click();
    
 }
 
